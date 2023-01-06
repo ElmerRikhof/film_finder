@@ -1,7 +1,7 @@
 // function to add a list of movies in ul
 
 const addMoviesToDom = function (movies) {
-  const allMovies = document.getElementById("list");
+  const allMovies = document.getElementById("movies-list");
 
   const listItems = movies.map((movie) => {
     let listItem = document.createElement("li");
